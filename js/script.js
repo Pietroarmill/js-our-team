@@ -41,6 +41,6 @@ for (let i = 0; i < team.length; i++) {
   console.log("name:", thisElement.name, "ruolo:", thisElement.role, "immagine:", thisElement.image)
   
   
-  teamContainer.innerHTML += `<div class="team-card"><div class="card-image"><img src="img/${thisImage}" alt="Wayne Barnett" /></div></div>`
+  teamContainer.innerHTML += `<div class="team-card"><div class="card-image"><img src="img/${thisImage}" alt="${thisName}" /></div><div class="card-text"><h3>${thisName}</h3><p>${thisRole}</p></div></div>`
 
 }
